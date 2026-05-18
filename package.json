@@ -17,6 +17,7 @@
 		"cf-typegen": "wrangler types"
 	},
 	"dependencies": {
+		"@ant-design/icons": "^6.2.3",
 		"@cloudflare/vite-plugin": "^1.26.0",
 		"@tailwindcss/vite": "^4.1.18",
 		"@tanstack/react-devtools": "latest",
@@ -25,9 +26,12 @@
 		"@tanstack/react-router-ssr-query": "latest",
 		"@tanstack/react-start": "latest",
 		"@tanstack/router-plugin": "^1.132.0",
+		"antd": "^6.4.2",
+		"dayjs": "^1.11.20",
 		"lucide-react": "^0.545.0",
 		"react": "^19.2.0",
 		"react-dom": "^19.2.0",
+		"recharts": "^3.8.1",
 		"tailwindcss": "^4.1.18"
 	},
 	"devDependencies": {
