@@ -177,7 +177,14 @@ function Home() {
                     >
                       Explore the Console
                     </Button>
-                    <Button size="large">Review Capabilities</Button>
+                    <Button
+                      size="large"
+                      href="https://tanstackship.com"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Visit tanstackship.com
+                    </Button>
                   </Space>
                 </Space>
               </Col>
