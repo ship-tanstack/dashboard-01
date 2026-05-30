@@ -1,39 +1,58 @@
-# TanStack Ship Operations Hub
+<h1 align="center">馃搳 TanStack Ship 鈥?Admin Dashboard Template</h1>
 
-![React 19](https://img.shields.io/badge/React-19-149eca?style=for-the-badge&logo=react&logoColor=white)
-![TanStack Start](https://img.shields.io/badge/TanStack-Start-ff6b35?style=for-the-badge&logo=reactrouter&logoColor=white)
-![Vite 8](https://img.shields.io/badge/Vite-8-646cff?style=for-the-badge&logo=vite&logoColor=white)
-![Ant Design 6](https://img.shields.io/badge/Ant%20Design-6-1677ff?style=for-the-badge&logo=antdesign&logoColor=white)
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-f38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-6-3178c6?style=for-the-badge&logo=typescript&logoColor=white)
-![Admin Dashboard Template](https://img.shields.io/badge/Template-Admin%20Dashboard-0f172a?style=for-the-badge)
-![TanStack Ship](https://img.shields.io/badge/TanStack%20Ship-Official%20Brand-111111?style=for-the-badge&logo=googlechrome&logoColor=white)
+<p align="center">
+  <strong>Production-ready operations dashboard built with TanStack Start, React 19, Ant Design 6 & Recharts</strong>
+</p>
 
-[Official Site](https://tanstackship.com/) • [Templates](https://tanstackship.com/templates) • [Pricing](https://tanstackship.com/pricing) • [Docs](https://tanstackship.com/docs)
+<p align="center">
+  <a href="https://tanstackship.com/" title="TanStack Ship">
+    <img src="https://img.shields.io/badge/TanStack_Ship-FF4154?style=for-the-badge&logo=react&logoColor=white" alt="TanStack Ship" />
+  </a>
+  <a href="https://tanstack.com/start" title="TanStack Start">
+    <img src="https://img.shields.io/badge/TanStack-Start-ff6b35?style=flat-square&logo=reactrouter&logoColor=white" alt="TanStack Start" />
+  </a>
+  <a href="https://react.dev" title="React 19">
+    <img src="https://img.shields.io/badge/React-19-149eca?style=flat-square&logo=react&logoColor=white" alt="React 19" />
+  </a>
+  <a href="https://ant.design/" title="Ant Design 6">
+    <img src="https://img.shields.io/badge/Ant_Design-6-1677ff?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design 6" />
+  </a>
+  <a href="https://www.typescriptlang.org/" title="TypeScript">
+    <img src="https://img.shields.io/badge/TypeScript-6-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  </a>
+  <a href="https://tailwindcss.com/" title="Tailwind CSS">
+    <img src="https://img.shields.io/badge/Tailwind-4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS v4" />
+  </a>
+  <a href="https://vite.dev/" title="Vite">
+    <img src="https://img.shields.io/badge/Vite-8-646cff?style=flat-square&logo=vite&logoColor=white" alt="Vite 8" />
+  </a>
+  <a href="https://workers.cloudflare.com/" title="Cloudflare Workers">
+    <img src="https://img.shields.io/badge/Cloudflare-Workers-f38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" />
+  </a>
+</p>
 
-TanStack Ship Operations Hub is a polished admin dashboard template for teams that need a modern TanStack foundation for internal tools, reporting surfaces, operational back offices, and business control panels. It combines TanStack Start, file-based routing, React 19, Ant Design, and Recharts into a dashboard shell that already includes overview, approvals, reports, users, integrations, and settings surfaces.
+<p align="center">
+  <a href="https://tanstackship.com/">馃敶 Live Demo</a> 鈥?  <a href="https://tanstackship.com/templates">馃摝 All Templates</a> 鈥?  <a href="https://tanstackship.com/pricing">馃挵 Pricing</a> 鈥?  <a href="https://tanstackship.com/docs">馃摉 Docs</a>
+</p>
 
-The template is optimized for local iteration with Vite and deployment to Cloudflare Workers, making it suitable both as a production starter and as a reusable dashboard asset inside the broader TanStack Ship template catalog.
+---
 
-If your brand is TanStack Ship, this repository should read as one concrete template offering: a common admin dashboard developers can fork, extend, and ship quickly.
+> 馃専 **If you find this template useful, please consider giving it a star!** It helps others discover it.
 
-## A TanStack Ship Template
+---
 
-TanStack Ship is the parent brand for your TanStack-focused templates, boilerplates, and starter kits. This repository represents the admin dashboard template in that lineup, so the README should position it as a productized starting point rather than a generic demo.
+> A polished admin dashboard template for teams 鈥?TanStack Start + Ant Design 6 + Recharts, with overview, approvals, reports, users, integrations, and settings screens ready to customize and ship.
+>
+> Part of the [TanStack Ship](https://tanstackship.com/) ecosystem: production-ready starters for modern web developers.
 
-- Use this repo when you want a common management dashboard that already has solid information architecture and UI scaffolding.
-- Use TanStack Ship as the main brand destination where developers can discover your broader catalog of TanStack templates.
-- Treat this project as the admin template SKU in that catalog, not as an isolated standalone experiment.
+## 鉁?Why This Template?
 
-## Template Positioning
-
-This template is best suited for:
-
-- Admin dashboards for SaaS products
-- Internal operations workspaces
-- Reporting and analytics consoles
-- Approval and workflow management panels
-- Team, access, and integration management surfaces
+- 馃搳 **6 dashboard screens** 鈥?Overview, Approvals, Reports, Users, Integrations, Settings
+- 馃帹 **Ant Design 6 themed** 鈥?Soft, productized visual system via central ConfigProvider
+- 馃搱 **Charts included** 鈥?Recharts analytics widgets for trends and reporting
+- 鈿?**TanStack Start** 鈥?Full SSR, file-based routing, type-safe navigation
+- 馃殌 **Deploy in seconds** 鈥?Cloudflare Workers config included
+- 馃敀 **Ready for auth** 鈥?Clean route structure, easy to add authentication layer
 
 ## Preview
 
@@ -49,181 +68,124 @@ This template is best suited for:
 
 ![Operations Hub reports](./images/reports.png)
 
-## Why This Template Exists
+## Use Cases
 
-- Provide a reusable admin dashboard template instead of a minimal starter.
-- Demonstrate TanStack Router file-based routing in a multi-view admin surface.
-- Show how Ant Design can be reshaped into a softer, more productized visual system.
-- Offer a Cloudflare-ready frontend workflow using the Vite plugin and Wrangler.
-- Keep the code small enough to fork, understand, and extend quickly.
+This template is best suited for:
 
-## Technical Highlights
+- 馃彚 Admin dashboards for SaaS products
+- 馃敡 Internal operations workspaces
+- 馃搱 Reporting and analytics consoles
+- 鉁?Approval and workflow management panels
+- 馃懃 Team, access, and integration management
 
-- React 19 application runtime with TypeScript-first development.
-- TanStack Start application shell with TanStack Router file-based routes.
-- Ant Design components themed through a central ConfigProvider setup.
-- Recharts-based analytics widgets for trend and channel reporting.
-- Tailwind CSS v4 available for utility styling alongside custom CSS.
-- Vite-powered local development and production builds.
-- Cloudflare Workers deployment path through Wrangler.
-- ESLint, Prettier, and Vitest already wired into the project scripts.
+## Tech Stack
 
-## Route Surface
+| Layer | Choice |
+| --- | --- |
+| **Framework** | [TanStack Start](https://tanstack.com/start) |
+| **Routing** | [TanStack Router](https://tanstack.com/router) (file-based) |
+| **UI** | [Ant Design 6](https://ant.design/) |
+| **Charts** | [Recharts](https://recharts.org/) |
+| **Styling** | Tailwind CSS v4 + custom CSS |
+| **Build** | Vite 8 |
+| **Deploy** | Cloudflare Workers |
+| **Language** | TypeScript |
+| **Testing** | Vitest |
 
-The dashboard is organized as a small but useful operations workspace:
+## Quick Start
 
-| Route                   | Purpose                                                          |
-| ----------------------- | ---------------------------------------------------------------- |
-| /                       | Landing page entry point                                         |
-| /dashboard              | Executive overview with KPIs, pipeline health, and activity      |
-| /dashboard/approvals    | Approval queue with segmented filtering and summary cards        |
-| /dashboard/reports      | Reporting workspace with charts, ROI metrics, and export actions |
-| /dashboard/users        | Team and access management surface                               |
-| /dashboard/integrations | Connected services and platform integrations                     |
-| /dashboard/settings     | System and workspace preferences                                 |
+```bash
+# Clone the repository
+git clone https://github.com/ship-tanstack/dashboard-01.git
+cd dashboard-01
 
-## Stack
+# Install dependencies
+corepack enable
+corepack pnpm@10 install
 
-| Layer                  | Choice                         |
-| ---------------------- | ------------------------------ |
-| App framework          | TanStack Start                 |
-| Routing                | TanStack Router                |
-| UI framework           | Ant Design                     |
-| Charts                 | Recharts                       |
-| Styling                | Tailwind CSS v4 and custom CSS |
-| Bundler                | Vite                           |
-| Runtime target         | Cloudflare Workers             |
-| Language               | TypeScript                     |
-| Testing                | Vitest                         |
-| Linting and formatting | ESLint and Prettier            |
+# Start dev server (http://localhost:3000)
+corepack pnpm@10 dev
+
+# Production build
+corepack pnpm@10 build
+
+# Deploy to Cloudflare
+corepack pnpm@10 deploy
+```
+
+## Route Structure
+
+| Route | Purpose |
+| --- | --- |
+| `/` | Landing page entry point |
+| `/dashboard` | Executive overview with KPIs, pipeline health, and activity |
+| `/dashboard/approvals` | Approval queue with segmented filtering |
+| `/dashboard/reports` | Reporting workspace with charts and ROI metrics |
+| `/dashboard/users` | Team and access management |
+| `/dashboard/integrations` | Connected services and platform integrations |
+| `/dashboard/settings` | System and workspace preferences |
 
 ## Project Structure
 
 ```text
 .
-├── public/                  # Static assets such as manifest and robots.txt
-├── images/                  # README screenshots
-├── src/
-│   ├── routes/              # File-based route modules
-│   │   ├── __root.tsx       # Document shell and global providers
-│   │   ├── index.tsx        # Landing page
-│   │   └── dashboard/
-│   │       ├── route.tsx    # Dashboard layout, sidebar, header, navigation
-│   │       ├── index.tsx    # Overview surface
-│   │       ├── approvals.tsx
-│   │       ├── reports.tsx
-│   │       ├── users.tsx
-│   │       ├── integrations.tsx
-│   │       └── settings.tsx
-│   ├── router.tsx           # Router setup
-│   ├── routeTree.gen.ts     # Generated route tree
-│   └── styles.css           # Global and visual system styles
-├── vite.config.ts           # Vite and Cloudflare integration
-├── wrangler.jsonc           # Cloudflare Workers configuration
-└── worker-configuration.d.ts
+鈹溾攢鈹€ src/
+鈹?  鈹溾攢鈹€ routes/              # File-based route modules
+鈹?  鈹?  鈹溾攢鈹€ __root.tsx       # Document shell and global providers
+鈹?  鈹?  鈹溾攢鈹€ index.tsx        # Landing page
+鈹?  鈹?  鈹斺攢鈹€ dashboard/
+鈹?  鈹?      鈹溾攢鈹€ route.tsx    # Dashboard layout, sidebar, header
+鈹?  鈹?      鈹溾攢鈹€ index.tsx    # Overview surface
+鈹?  鈹?      鈹溾攢鈹€ approvals.tsx
+鈹?  鈹?      鈹溾攢鈹€ reports.tsx
+鈹?  鈹?      鈹溾攢鈹€ users.tsx
+鈹?  鈹?      鈹溾攢鈹€ integrations.tsx
+鈹?  鈹?      鈹斺攢鈹€ settings.tsx
+鈹?  鈹溾攢鈹€ router.tsx           # Router setup
+鈹?  鈹斺攢鈹€ styles.css           # Global styles
+鈹溾攢鈹€ images/                  # README screenshots
+鈹溾攢鈹€ vite.config.ts
+鈹斺攢鈹€ wrangler.jsonc
 ```
-
-## Local Development
-
-### Prerequisites
-
-- Node.js 20 or newer is recommended.
-- Corepack should be enabled.
-- This repository expects pnpm 10 for dependency compatibility.
-
-### Install
-
-```bash
-corepack enable
-corepack pnpm@10 install
-```
-
-### Start the dev server
-
-```bash
-corepack pnpm@10 dev
-```
-
-The application runs on http://localhost:3000 by default.
-
-## Available Scripts
-
-```bash
-corepack pnpm@10 dev        # Start Vite dev server on port 3000
-corepack pnpm@10 build      # Create a production build
-corepack pnpm@10 preview    # Build and preview locally
-corepack pnpm@10 test       # Run Vitest once
-corepack pnpm@10 lint       # Run ESLint
-corepack pnpm@10 format     # Run Prettier write and ESLint fix
-corepack pnpm@10 check      # Run Prettier check
-corepack pnpm@10 deploy     # Build and deploy with Wrangler
-corepack pnpm@10 cf-typegen # Refresh Cloudflare worker types
-```
-
-## Deployment
-
-This project is already aligned with Cloudflare Workers through the Cloudflare Vite plugin and Wrangler.
-
-```bash
-corepack pnpm@10 build
-corepack pnpm@10 deploy
-```
-
-Before deploying, review the following:
-
-- Update values in wrangler.jsonc for your environment.
-- Add secrets with Wrangler when needed.
-- Regenerate worker types after changing bindings.
-
-Example:
-
-```bash
-wrangler secret put MY_SECRET
-corepack pnpm@10 cf-typegen
-```
-
-## Implementation Notes
-
-### Theming
-
-The root document configures Ant Design through a shared theme object, which is where border radius, base colors, typography, and component-level tokens are shaped. If you want to rebrand the dashboard, start there first.
-
-### Navigation model
-
-The dashboard layout uses a route-aware sidebar with grouped navigation, pinned views, and contextual labels. The current route drives both the active menu state and the top-level page description.
-
-### Charts and data
-
-The existing charts are powered by static data arrays, which keeps the example easy to fork. Replacing these arrays with TanStack loaders, server functions, or API-backed data is straightforward because each screen already isolates its display logic cleanly.
 
 ## Customization Guide
 
 Common extension points:
 
-- Replace static arrays in route files with real business data.
-- Connect reports and tables to your API or warehouse layer.
-- Add authentication and role-based access around the dashboard route group.
-- Extend the dashboard navigation by creating new files under src/routes/dashboard.
-- Move design tokens in the root theme object to your own brand system.
-- Add loader or server function boundaries where the UI needs real data.
+- Replace static data arrays with real API calls or TanStack loaders
+- Add authentication and role-based access around the dashboard route group
+- Extend navigation by creating new files under `src/routes/dashboard/`
+- Rebrand by updating the theme object in root ConfigProvider
+- Add TanStack Query for data fetching
 
-## More from TanStack Ship
+## Scripts
 
-If you are evaluating this project as a starting point, the broader TanStack Ship catalog is the logical next stop:
+| Command | Description |
+| --- | --- |
+| `pnpm dev` | Start Vite dev server on port 3000 |
+| `pnpm build` | Create a production build |
+| `pnpm preview` | Build and preview locally |
+| `pnpm test` | Run Vitest |
+| `pnpm lint` | Run ESLint |
+| `pnpm format` | Prettier write + ESLint fix |
+| `pnpm deploy` | Build and deploy with Wrangler |
 
-- Official website: https://tanstackship.com/
-- Template catalog: https://tanstackship.com/templates
-- Feature overview: https://tanstackship.com/features
-- Documentation: https://tanstackship.com/docs
-- Showcase: https://tanstackship.com/showcase
+## 馃敆 More from TanStack Ship
 
-## Notes For Contributors
+This template is part of the **[TanStack Ship](https://tanstackship.com/)** catalog:
 
-- Keep generated routing artifacts in sync when route files change.
-- Prefer focused route modules over large cross-page components.
-- Treat the current dataset as placeholder UI scaffolding, not production business logic.
-- Validate formatting before committing changes.
+| Template | Description |
+| --- | --- |
+| [Apple-like Landing Page](https://github.com/ship-tanstack/Apple-like) | Apple-inspired product landing page with CSS sculpture |
+| [Aurelia No.7 Landing Page](https://github.com/ship-tanstack/Aurelia-No.7-Landing-Page) | Premium editorial landing page with scroll narrative |
 
-## License
+- **[Browse all TanStack Templates 鈫抅(https://tanstackship.com/)**
+- [TanStack Start docs](https://tanstack.com/start)
+- [TanStack Router docs](https://tanstack.com/router)
 
-No license file is included in this repository at the moment. Add one if you plan to distribute the project externally.
+---
+
+<p align="center">
+  Built with 鉂わ笍 using <a href="https://tanstack.com/start">TanStack Start</a>.<br/>
+  Discover more templates at <a href="https://tanstackship.com/"><strong>tanstackship.com</strong></a>
+</p>
